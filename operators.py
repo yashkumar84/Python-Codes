@@ -67,5 +67,8 @@ print(c is d)
 
 # | , & , ^ , << , >>
 
-print(10 & 10)
-print(10 | 10)
+print(12 & 11)
+print(12 | 11)
+print(12 ^ 11)
+print(5 << 1)
+print(5 >> 1)

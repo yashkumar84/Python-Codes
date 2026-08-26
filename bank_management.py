@@ -17,7 +17,6 @@ class Account:
         self.transactions = []
         if balance > 0:
             random_number = math.floor(random.random() * 10000)
-            print(random_number)
             transaction = Transaction(random_number , balance, "Account Opening" , "Opening Balance Success")
             self.transactions.append(transaction)
 
@@ -40,10 +39,17 @@ class Account:
 
         self.balance -= balance
         random_number = math.floor(random.random() * 10000)
-        print(random_number)
         transaction = Transaction(random_number , balance , "Withdraw" , "Withdraw Success")
         self.transactions.append(transaction)
+        print("Withdraw Success")
 
+    def printBalance(self , acc_no , password):
+        if self.password != password:
+            print("Wrong Password")
+            return
+        print(self.balance)
+        for transaction in self.transactions:
+            print(transaction.trans_type + " And Balance is " + str(transaction.trans_amount))
 
 class Bank:
     def __init__(self):
@@ -51,21 +57,33 @@ class Bank:
 
     def createAccount(self):
         acc_id = math.floor(random.random() * 10000)
-        print("Account Id" , acc_id)
         acc_holder_name = input("Enter You Name")
         password = input("Enter Password")
         balance = int(input("Enter balance"))
         account = Account(acc_id , acc_holder_name , password , balance)
+        print(account.acc_number)
+        self.accounts.append(account)
 
-    def deposit(self , acc_no , balance):
+    def deposit(self, acc_no , balance):
         acc = None
         for account in self.accounts:
             if account.acc_number == acc_no:
                 acc = account
         acc.deposit(balance)
 
-    def withdraw(self , acc_no , password):
-        pass
+    def printBalance(self ,acc_no , password):
+        acc = None
+        for account in self.accounts:
+            if account.acc_number == acc_no:
+                acc = account
+        acc.printBalance(acc_no , password)
+
+    def withdraw(self , acc_no , password , balance):
+        acc = None
+        for account in self.accounts:
+            if account.acc_number == acc_no:
+                acc = account
+            acc.withdraw(password , balance)
 
 
 
@@ -75,18 +93,29 @@ print("Press 1 For Create Account")
 print("Press 2 For Deposit Money")
 print("Press 3 Fror Withdraw Money")
 print("Press 4 For view All Transactions")
+choice = None
+while choice !=5 :
+    choice = int(input("Enter Your CHoice"))
+    match(choice):
+        case 1:
+            bank.createAccount()
 
-choice = int(input("Enter Your CHoice"))
-match(choice):
-    case 1:
-        bank.createAccount()
+        case 2:
+            acc_no = int(input("Enter Account Number"))
+            balance = int(input("Enter The Blance"))
+            bank.deposit(acc_no , balance)
 
-    case 2:
-        acc_no = int(input("Enter Account Number"))
-        balance = int(input("Enter The Blance"))
-        bank.deposit(acc_no , balance)
+        case 3:
+            acc_no = int(input("Enter Account Number"))
+            password = input("Enter Password")
+            balance = int(input("Enter Balance"))
+            bank.withdraw(acc_no , password , balance)
 
-    case 3:
-        acc_no = int(input("Enter Account Number"))
-        password = input("Enter Password")
-        bank.withdraw(acc_no , password)
+        case 4:
+            acc_no = int(input("Enter Account Number"))
+            password = input("Enter Password")
+            bank.printBalance(acc_no , password)
+        case 5:
+            break
+
+        

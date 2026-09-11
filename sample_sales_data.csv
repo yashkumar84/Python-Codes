@@ -1,0 +1,101 @@
+Customer_ID,Date,Category,Purchase_Amount,Payment_Method,Rating
+CUST-001,2026-01-01,Home & Kitchen,485.1,Credit Card,
+CUST-002,2026-01-02,Books,389.92,Credit Card,2.0
+CUST-003,2026-01-03,Electronics,470.38,Apple Pay,3.0
+CUST-004,2026-01-04,Home & Kitchen,448.51,PayPal,5.0
+CUST-005,2026-01-05,Home & Kitchen,303.17,PayPal,4.0
+CUST-006,2026-01-06,Books,461.75,Credit Card,1.0
+CUST-007,2026-01-07,Electronics,53.82,Debit Card,2.0
+CUST-008,2026-01-08,Electronics,106.43,PayPal,4.0
+CUST-009,2026-01-09,Home & Kitchen,32.64,Debit Card,1.0
+CUST-010,2026-01-10,Clothing,169.75,PayPal,3.0
+CUST-011,2026-01-11,Home & Kitchen,200.75,Debit Card,4.0
+CUST-012,2026-01-12,Home & Kitchen,143.32,Apple Pay,4.0
+CUST-013,2026-01-13,Home & Kitchen,416.16,Debit Card,4.0
+CUST-014,2026-01-14,Home & Kitchen,185.13,Apple Pay,3.0
+CUST-015,2026-01-15,Books,148.01,Apple Pay,5.0
+CUST-016,2026-01-16,Electronics,276.14,Debit Card,
+CUST-017,2026-01-17,Books,79.48,Apple Pay,3.0
+CUST-018,2026-01-18,Books,403.17,Credit Card,5.0
+CUST-019,2026-01-19,Books,46.99,Apple Pay,4.0
+CUST-020,2026-01-20,Home & Kitchen,493.57,PayPal,5.0
+CUST-021,2026-01-21,Clothing,388.51,Debit Card,4.0
+CUST-022,2026-01-22,Electronics,107.77,Credit Card,4.0
+CUST-023,2026-01-23,Clothing,13.2,Debit Card,2.0
+CUST-024,2026-01-24,Books,409.66,PayPal,4.0
+CUST-025,2026-01-25,Books,356.5,PayPal,3.0
+CUST-026,2026-01-26,Clothing,367.34,PayPal,3.0
+CUST-027,2026-01-27,Clothing,388.03,Apple Pay,5.0
+CUST-028,2026-01-28,Clothing,46.74,Apple Pay,4.0
+CUST-029,2026-01-29,Books,185.97,Debit Card,5.0
+CUST-030,2026-01-30,Books,67.22,Debit Card,4.0
+CUST-031,2026-01-31,Electronics,432.98,Credit Card,
+CUST-032,2026-02-01,Electronics,315.6,Credit Card,4.0
+CUST-033,2026-02-02,Books,172.47,Debit Card,4.0
+CUST-034,2026-02-03,Clothing,41.61,Apple Pay,4.0
+CUST-035,2026-02-04,Clothing,162.72,PayPal,3.0
+CUST-036,2026-02-05,Electronics,169.67,Debit Card,5.0
+CUST-037,2026-02-06,Books,367.63,Credit Card,3.0
+CUST-038,2026-02-07,Electronics,322.58,Apple Pay,1.0
+CUST-039,2026-02-08,Electronics,444.78,Debit Card,4.0
+CUST-040,2026-02-09,Home & Kitchen,241.64,Debit Card,3.0
+CUST-041,2026-02-10,Home & Kitchen,69.04,Apple Pay,5.0
+CUST-042,2026-02-11,Home & Kitchen,359.63,Debit Card,5.0
+CUST-043,2026-02-12,Clothing,382.9,Apple Pay,5.0
+CUST-044,2026-02-13,Books,285.24,PayPal,4.0
+CUST-045,2026-02-14,Books,387.88,Apple Pay,1.0
+CUST-046,2026-02-15,Books,252.21,Apple Pay,
+CUST-047,2026-02-16,Books,266.37,Apple Pay,4.0
+CUST-048,2026-02-17,Home & Kitchen,219.78,Debit Card,5.0
+CUST-049,2026-02-18,Clothing,22.94,Debit Card,5.0
+CUST-050,2026-02-19,Clothing,63.31,Apple Pay,5.0
+CUST-051,2026-02-20,Home & Kitchen,25.88,Debit Card,3.0
+CUST-052,2026-02-21,Clothing,322.02,Credit Card,4.0
+CUST-053,2026-02-22,Home & Kitchen,164.37,Credit Card,5.0
+CUST-054,2026-02-23,Books,259.44,Debit Card,3.0
+CUST-055,2026-02-24,Home & Kitchen,454.74,Debit Card,3.0
+CUST-056,2026-02-25,Books,132.53,Apple Pay,4.0
+CUST-057,2026-02-26,Books,211.38,PayPal,5.0
+CUST-058,2026-02-27,Electronics,380.33,Debit Card,4.0
+CUST-059,2026-02-28,Home & Kitchen,122.49,Credit Card,4.0
+CUST-060,2026-03-01,Electronics,48.18,Apple Pay,2.0
+CUST-061,2026-03-02,Home & Kitchen,152.33,Debit Card,
+CUST-062,2026-03-03,Home & Kitchen,89.42,Credit Card,5.0
+CUST-063,2026-03-04,Electronics,465.58,Credit Card,2.0
+CUST-064,2026-03-05,Electronics,406.07,PayPal,4.0
+CUST-065,2026-03-06,Home & Kitchen,320.54,Apple Pay,5.0
+CUST-066,2026-03-07,Clothing,437.07,Apple Pay,5.0
+CUST-067,2026-03-08,Books,403.89,PayPal,4.0
+CUST-068,2026-03-09,Electronics,101.82,PayPal,5.0
+CUST-069,2026-03-10,Books,447.4,Apple Pay,4.0
+CUST-070,2026-03-11,Clothing,274.5,Apple Pay,3.0
+CUST-071,2026-03-12,Clothing,405.73,Debit Card,5.0
+CUST-072,2026-03-13,Clothing,449.13,Debit Card,5.0
+CUST-073,2026-03-14,Electronics,166.16,PayPal,5.0
+CUST-074,2026-03-15,Clothing,64.37,Debit Card,5.0
+CUST-075,2026-03-16,Electronics,122.07,Credit Card,4.0
+CUST-076,2026-03-17,Clothing,219.56,Debit Card,
+CUST-077,2026-03-18,Books,410.91,Debit Card,5.0
+CUST-078,2026-03-19,Books,431.82,Credit Card,4.0
+CUST-079,2026-03-20,Home & Kitchen,13.9,PayPal,5.0
+CUST-080,2026-03-21,Books,260.51,Credit Card,5.0
+CUST-081,2026-03-22,Home & Kitchen,214.82,Debit Card,5.0
+CUST-082,2026-03-23,Books,119.22,PayPal,3.0
+CUST-083,2026-03-24,Electronics,69.17,Debit Card,4.0
+CUST-084,2026-03-25,Books,175.76,Credit Card,2.0
+CUST-085,2026-03-26,Home & Kitchen,472.04,Credit Card,4.0
+CUST-086,2026-03-27,Home & Kitchen,168.7,Debit Card,1.0
+CUST-087,2026-03-28,Clothing,264.44,Apple Pay,4.0
+CUST-088,2026-03-29,Electronics,354.62,Apple Pay,4.0
+CUST-089,2026-03-30,Books,188.49,Credit Card,3.0
+CUST-090,2026-03-31,Clothing,486.18,Credit Card,4.0
+CUST-091,2026-04-01,Books,481.61,Apple Pay,
+CUST-092,2026-04-02,Books,133.74,Apple Pay,1.0
+CUST-093,2026-04-03,Clothing,253.9,Debit Card,5.0
+CUST-094,2026-04-04,Clothing,157.78,Debit Card,4.0
+CUST-095,2026-04-05,Clothing,149.93,Apple Pay,2.0
+CUST-096,2026-04-06,Clothing,28.56,Debit Card,4.0
+CUST-097,2026-04-07,Clothing,308.88,Debit Card,5.0
+CUST-098,2026-04-08,Books,256.56,PayPal,3.0
+CUST-099,2026-04-09,Clothing,35.7,Debit Card,4.0
+CUST-100,2026-04-10,Electronics,146.89,Credit Card,2.0
